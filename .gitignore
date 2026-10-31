@@ -1,0 +1,30 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/storage/
+*.pyc
+
+# Env
+.env
+backend/.env
+frontend/.env.local
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI assistant files
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+**/.claude/
+
+# Build artifacts
+*.tsbuildinfo
